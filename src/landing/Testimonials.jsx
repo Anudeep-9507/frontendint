@@ -7,7 +7,7 @@ const testimonialsData = [
     id: 1,
     name: 'John Doe',
     image: 'src/landing/assets/img1.jpg', // Replace with the actual image URL
-    text: 'This service has greatly improved my productivity! Highly recommend to everyone.',
+    text: 'This service has greatly improved my productivity! Im happy with this!',
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const Testimonials = () => {
                   <img src={testimonial.image} alt={testimonial.name} className={`rounded-circle me-3 ${styles.testimonialImage}`} />
                   <h5 className={styles.cardTitle}>{testimonial.name}</h5>
                 </div>
-                <p className="card-text">{testimonial.text}</p>
+                <p className={styles.cardText}>{testimonial.text}</p>
               </div>
             </div>
           </div>

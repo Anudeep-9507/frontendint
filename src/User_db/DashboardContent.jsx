@@ -14,7 +14,7 @@ const DashboardContent = React.forwardRef((props, ref) => {
               {/* Buttons for Create, Update, and Delete */}
               <div className={styles.buttonGroup}>
                   <button onClick={() => navigate('/add-policy')} className={`${styles.policyButton} ${styles.createButton}`}>Buy Policy</button>
-                  <button onClick={() => navigate('/add-policy')} className={`${styles.policyButton} ${styles.updateButton}`}>Update Policy</button>
+                  {/* <button onClick={() => navigate('/add-policy')} className={`${styles.policyButton} ${styles.updateButton}`}>Update Policy</button> */}
               </div>
           </div>
       </div>

@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <>
     <nav className={styles.nav}>
-        <ul className={styles.navList}>
+      <ul className={styles.navList}>
         <li className={styles.navItem}> <a href="#Dashboard"> Dashboard</a></li>
         <li className={styles.navItem}> <a href="#Policies">Policies</a></li>
         <li className={styles.navItem}> <a href="#Claims">Claims</a></li>

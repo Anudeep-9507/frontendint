@@ -16,7 +16,7 @@ const PaymentsSection = () => {
         </div>
       </div>
 
-      <button className={styles.paymentButton}>Make a Payment</button>
+      {/* <button className={styles.paymentButton}>Make a Payment</button> */}
     </section>
   );
 };
